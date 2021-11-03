@@ -1,5 +1,4 @@
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
@@ -75,7 +74,7 @@ public class LZ77 {
     static List<Tag> compress(String str) {
         List<Tag> result = new ArrayList<>();
 
-        int searchWindow = (int) Math.pow(2, Tag.bufferBitLength);
+        int searchWindow = (int) Math.pow(2, Tag.bufferBitLength) - 1;
         for (int i = 0; i < str.length(); i++) {
             int l = Math.max(0, i - searchWindow);
             int r = i;

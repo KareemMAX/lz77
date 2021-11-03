@@ -10,8 +10,8 @@ public class Tag {
     private char _nextChar;
 
     public Tag(long position, long length, char nextChar) {
-        _position = position;
-        _length = length;
+        setPosition(position);
+        setLength(length);
         _nextChar = nextChar;
     }
 
