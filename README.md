@@ -1,6 +1,6 @@
 # LZ77 compression algorithm
 
-An [LZ77](https://en.wikipedia.org/wiki/LZ77_and_LZ78) compression algorithm implementation using java. It was an assignment for the Compression and Information theory course in Cairo University Faculty of Computers and Artificial Intelligence.  
+A [LZ77](https://en.wikipedia.org/wiki/LZ77_and_LZ78) compression algorithm implementation using java. It was an assignment for the Compression and Information theory course in Cairo University Faculty of Computers and Artificial Intelligence.  
 This implementation theoretically can compress text and binary files, although it is not designed to.
 
 ## How to use
