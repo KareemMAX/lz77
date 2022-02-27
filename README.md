@@ -7,12 +7,12 @@ This implementation theoretically can compress text and binary files, although i
 
 To compress a file run the program with the following arguments:
 ```shell
-java -jar c <filename>
+java -jar lz77.jar c <filename>
 ```
 
 For decompression:
 ```shell
-java -jar d <filename>
+java -jar lz77.jar d <filename>
 ```
 
 ## Example
