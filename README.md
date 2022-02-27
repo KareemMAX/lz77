@@ -24,6 +24,6 @@ Using 5 paragraphs of [Lorem ipsum](https://www.lipsum.com/feed/html):
 
 ## See also
 
-- [LZ88 implementation](https://github.com/KareemMAX/lz78)
+- [LZ78 implementation](https://github.com/KareemMAX/lz78)
 - [LZW implementation](https://github.com/KareemMAX/lzw)
 - [Huffman coding implementation](https://github.com/mAshrafDawood/Huffman)
