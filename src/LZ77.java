@@ -7,18 +7,6 @@ import java.util.List;
 
 public class LZ77 {
     public static void main(String[] args) {
-//        String input = "ABAABABAABBBBBBBBBBBBA";
-//        List<Tag> compressed = compress(input);
-//
-//        for (Tag tag :
-//                compressed) {
-//            System.out.println("Tag<" + tag.getPosition() + ", " + tag.getLength() + ", " + tag.getNextChar() + ">");
-//        }
-//
-//        String decompressedString = decompress(compressed);
-//        System.out.println(decompressedString);
-//
-//        System.out.println("Decompressed = Compressed: " + (input.equals(decompressedString)));
 
         try
         {
